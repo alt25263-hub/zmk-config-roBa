@@ -134,10 +134,10 @@
 
         NUM {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                             &kp N7  &kp N8  &kp N9  &kp DOUBLE_QUOTES  &kp SLASH
-&trans  &trans  &trans  &trans  &trans  &kp LS(N8)      &kp UNDER  &kp N4  &kp N5  &kp N6  &kp COLON          &kp MINUS
-&trans  &trans  &trans  &trans  &trans  &kp LS(N9)      &kp N0     &kp N1  &kp N2  &kp N3  &kp PERCENT        &kp DOLLAR
-&trans  &trans  &trans  &trans  &trans  &trans          &trans     &trans                                     &kp INT_YEN
+&trans  &trans  &trans  &trans      &trans                         &kp N7  &kp N8  &kp N9  &kp DOUBLE_QUOTES  &kp SLASH
+&trans  &trans  &trans  &kp LS(N8)  &trans  &trans      &kp UNDER  &kp N4  &kp N5  &kp N6  &kp COLON          &kp MINUS
+&trans  &trans  &trans  &kp LS(N9)  &trans  &trans      &kp N0     &kp N1  &kp N2  &kp N3  &kp PERCENT        &kp DOLLAR
+&trans  &trans  &trans  &trans      &trans  &trans      &trans     &trans                                     &kp INT_YEN
             >;
         };
 
