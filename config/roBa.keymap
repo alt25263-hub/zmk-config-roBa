@@ -116,10 +116,10 @@
 
         SYM {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                             &kp CARET  &kp LPAR  &kp RPAR  &kp TILDE  &kp INT_YEN
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp LBRC  &kp RBRC   &kp APOS  &kp DQT   &kp HASH   &kp PRCNT
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &kp LBKT  &kp RBKT   &kp AMPS  &kp AT    &kp DLLR   &kp BSLH
-&trans                      &trans           &trans           &trans           &trans        &trans                       &trans    &trans                                    &kp PIPE
+&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                     &kp CARET          &kp KP_LPAR     &kp KP_RPAR        &kp TILDE2  &kp INT_YEN
+&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp APOSTROPHE  &kp DOUBLE_QUOTES  &kp HASH    &kp PRCNT
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp AMPERSAND   &kp AT_SIGN        &kp DLLR    &kp BSLH
+&trans                      &trans           &trans           &trans           &trans        &trans                       &trans            &trans                                                            &kp PIPE
             >;
         };
 
