@@ -86,7 +86,7 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E         &kp R                        &kp T                                                                       &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                        &kp G                   &kp LS(LG(S))                      &kp APOSTROPHE   &kp H        &kp J  &kp K      &kp L    &kp MINUS
+&kp A             &kp S         &kp D         &kp F                        &kp G                   &kp LS(LG(S))                      &kp AMPS         &kp H        &kp J  &kp K      &kp L    &kp MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B                   &kp COLON                          &kp EXCLAMATION  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt_to_layer_0 3 SPACE  &lt_to_layer_0 1 INT_MUHENKAN      &kp BACKSPACE    &lt 2 ENTER                             &kp DEL
             >;
@@ -116,10 +116,10 @@
 
         SYM {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                     &kp CARET          &kp KP_LPAR     &kp KP_RPAR        &kp TILDE2  &kp INT_YEN
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp APOSTROPHE  &kp DOUBLE_QUOTES  &kp HASH    &kp PRCNT
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp AMPERSAND   &kp AT_SIGN        &kp DLLR    &kp BSLH
-&trans                      &trans           &trans           &trans           &trans        &trans                       &trans            &trans                                                            &kp PIPE
+&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                             &kp EQUAL  &kp LS(N8)      &kp LS(N9)    &kp PLUS    &kp INT_YEN
+&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp RBKT  &kp BSLH   &kp APOSTROPHE  &kp LS(APOS)  &kp HASH    &kp LS(N5)
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &kp RBRC  &kp PIPE   &kp LS(N7)      &kp LS(N2)    &kp LS(N4)  &kp NON_US_BACKSLASH
+&trans                      &trans           &trans           &trans           &trans        &trans                       &trans    &trans                                               &kp PIPE2
             >;
         };
 
