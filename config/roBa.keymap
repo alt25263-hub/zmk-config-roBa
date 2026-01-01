@@ -85,13 +85,13 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                        &kp T                                                                       &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                        &kp G                   &kp LS(LG(S))                      &kp AMPS         &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B                   &kp COLON                          &kp EXCLAMATION  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp Q             &kp W         &kp E         &kp R                        &kp T                                                                       &kp Y        &kp U  &kp I      &kp O    &kp P
+&kp A             &kp S         &lt 5 D       &kp F                        &kp G                   &kp LS(LG(S))                      &kp CARET        &kp H        &kp J  &kp K      &kp L    &kp MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B                   &kp AT                             &kp EXCLAMATION  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt_to_layer_0 3 SPACE  &lt_to_layer_0 1 INT_MUHENKAN      &kp BACKSPACE    &lt 2 ENTER                             &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
+            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_DOWN C_AC_SCROLL_UP>;
         };
 
         FUNCTION {
@@ -134,10 +134,10 @@
 
         NUM {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp ASTERISK  &kp SLASH
-&trans  &trans  &trans  &trans  &trans  &trans      &kp LEFT_PARENTHESIS   &kp KP_N4  &kp KP_N5  &kp KP_N7  &kp PLUS      &kp MINUS
-&trans  &trans  &trans  &trans  &trans  &trans      &kp RIGHT_PARENTHESIS  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp PERCENT   &kp DOLLAR
-&trans  &trans  &trans  &trans  &trans  &trans      &trans                 &kp KP_N0                                      &kp EQUAL
+&trans  &trans  &trans  &trans  &trans                             &kp N7  &kp N8  &kp N9  &kp DOUBLE_QUOTES  &kp SLASH
+&trans  &trans  &trans  &trans  &trans  &kp LS(N8)      &kp UNDER  &kp N4  &kp N5  &kp N6  &kp COLON          &kp MINUS
+&trans  &trans  &trans  &trans  &trans  &kp LS(N9)      &kp N0     &kp N1  &kp N2  &kp N3  &kp PERCENT        &kp DOLLAR
+&trans  &trans  &trans  &trans  &trans  &trans          &trans     &trans                                     &kp INT_YEN
             >;
         };
 
