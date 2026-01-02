@@ -91,7 +91,7 @@
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt_to_layer_0 3 SPACE  &lt_to_layer_0 1 INT_MUHENKAN      &kp BACKSPACE    &lt 2 ENTER                             &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_DOWN C_AC_SCROLL_UP>;
+            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
         };
 
         FUNCTION {
@@ -105,10 +105,10 @@
 
         ARROW {
             bindings = <
-&kp TAB         &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans  &kp LC(C_AC_HOME)  &kp UP_ARROW    &kp LC(END)      &trans
-&kp CAPSLOCK    &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans  &kp LEFT_ARROW     &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans  &kp LG(LEFT)       &kp LG(UP)      &kp LG(RIGHT)    &trans
-&trans          &kp LEFT_WIN            &trans          &trans                   &trans   &trans      &trans  &trans                                                      &trans
+&kp TAB         &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &kp C_AC_ZOOM_IN   &kp LC(HOME)    &kp UP_ARROW    &kp LC(END)      &kp C_VOLUME_UP
+&kp CAPSLOCK    &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &kp C_AC_ZOOM_OUT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp C_VOLUME_DOWN
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans             &kp LG(LEFT)    &kp LG(UP)      &kp LG(RIGHT)    &kp C_BRIGHTNESS_INC
+&trans          &kp LEFT_WIN            &trans          &trans                   &trans   &trans      &trans  &trans                                                              &kp C_BRIGHTNESS_DEC
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -116,10 +116,10 @@
 
         SYM {
             bindings = <
-&kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                             &kp EQUAL  &kp LS(N8)      &kp LS(N9)    &kp PLUS    &kp INT_YEN
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp RBKT  &kp BSLH   &kp APOSTROPHE  &kp LS(APOS)  &kp HASH    &kp LS(N5)
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &kp RBRC  &kp PIPE   &kp LS(N7)      &kp LS(N2)    &kp LS(N4)  &kp NON_US_BACKSLASH
-&trans                      &trans           &trans           &trans           &trans        &trans                       &trans    &trans                                               &kp PIPE2
+&trans          &trans  &trans  &trans    &trans                             &kp EQUAL       &kp LS(N8)  &kp LS(N9)    &kp PLUS     &kp LEFT_BRACKET
+&trans          &trans  &trans  &kp BSLH  &trans  &trans      &kp SEMICOLON  &kp APOSTROPHE  &kp RBKT    &kp LS(APOS)  &kp BSLH     &kp DOUBLE_QUOTES
+&kp LEFT_SHIFT  &trans  &trans  &kp PIPE  &trans  &trans      &kp RBRC       &kp PIPE        &kp LS(N7)  &kp LS(N2)    &kp PERCENT  &kp DOLLAR
+&trans          &trans  &trans  &trans    &trans  &trans      &trans         &trans                                                 &kp INTERNATIONAL_3
             >;
         };
 
