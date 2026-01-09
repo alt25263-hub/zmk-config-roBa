@@ -75,10 +75,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                        &kp T                                                                       &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A             &kp S         &lt 5 D       &kp F                        &kp G                   &kp LS(LG(S))                      &kp CARET        &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B                   &kp LEFT_BRACKET                   &kp EXCLAMATION  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt_to_layer_0 3 SPACE  &lt_to_layer_0 1 INT_MUHENKAN      &kp BACKSPACE    &lt 2 ENTER                             &kp DEL
+&kp Q             &kp W         &kp E         &kp R           &lt_to_layer_0 6 T                                                          &kp Y        &kp U  &kp I      &kp O    &kp P
+&kp A             &kp S         &lt 5 D       &kp F           &kp G                   &kp LS(LG(S))                      &kp CARET        &kp H        &kp J  &kp K      &kp L    &kp MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V           &kp B                   &kp LEFT_BRACKET                   &kp EXCLAMATION  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &kp INT_HENKAN  &lt_to_layer_0 3 SPACE  &lt_to_layer_0 1 INT_MUHENKAN      &kp BACKSPACE    &lt 2 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
@@ -124,10 +124,10 @@
 
         NUM {
             bindings = <
-&trans  &trans  &trans  &trans      &trans                         &kp N7  &kp N8  &kp N9  &kp DOUBLE_QUOTES  &kp SLASH
-&trans  &trans  &trans  &kp LS(N8)  &trans  &trans      &kp UNDER  &kp N4  &kp N5  &kp N6  &kp COLON          &kp MINUS
-&trans  &trans  &trans  &kp LS(N9)  &trans  &trans      &kp N0     &kp N1  &kp N2  &kp N3  &kp PERCENT        &kp DOLLAR
-&trans  &trans  &trans  &trans      &trans  &trans      &trans     &trans                                     &kp INT_YEN
+&trans  &trans  &trans  &trans      &trans                           &kp UNDER       &kp N7  &kp N8  &kp N9  &kp SLASH
+&trans  &trans  &trans  &kp LS(N8)  &trans  &trans      &kp DOLLAR   &kp APOSTROPHE  &kp N4  &kp N5  &kp N6  &kp DOUBLE_QUOTES
+&trans  &trans  &trans  &kp LS(N9)  &trans  &trans      &kp INT_YEN  &kp N0          &kp N1  &kp N2  &kp N3  &kp MINUS
+&trans  &trans  &trans  &trans      &trans  &trans      &trans       &trans                                  &kp COLON
             >;
         };
 
