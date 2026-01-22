@@ -5,7 +5,7 @@ layers:
   - W
   - E
   - R
-  - T
+  - {t: '&to_layer_0 T', h: '6'}
   - Y
   - U
   - I
@@ -38,7 +38,7 @@ layers:
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - {t: '&to_layer_0 INT_HENKAN', h: '6'}
+  - INT HENKAN
   - {t: '&to_layer_0 SPACE', h: SYM}
   - {t: '&to_layer_0 INT_MUHENKAN', h: FUNCTION}
   - BACKSPACE
@@ -226,10 +226,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - _
   - '7'
   - '8'
   - '9'
-  - '"'
   - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -237,24 +237,24 @@ layers:
   - Sft+8
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - _
+  - $
+  - ''''
   - '4'
   - '5'
   - '6'
-  - ':'
-  - '-'
+  - '"'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Sft+9
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - INT YEN
   - '0'
   - '1'
   - '2'
   - '3'
-  - '%'
-  - $
+  - '-'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -263,13 +263,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - INT YEN
+  - ':'
   '6':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -302,7 +302,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
